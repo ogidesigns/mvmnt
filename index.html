@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <title>MVMNT | TAG YOUR PIC</title>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/canvas2image/0.1/base64.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/canvas2image/0.1/canvas2image.js"></script>
+        <script type="text/javascript" src="https://github.com/niklasvh/html2canvas/releases/download/0.4.1/html2canvas.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Sarala:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
     <body>
-        <iframe width="100%" height="900px" src="//jsfiddle.net/ogidesigns/c5m0ruv3/embedded/result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+        <img id="logo" src="http://www.brooklyntabernacle.org//webimages/mvmnt/site/mvmnt-logo.png" />
+        <div id="square">
+           <h1>#MVMNT<span class="smallCase">INTHECITY</span></h1>
+        </div>
+        <input type='file' />
+        <input type="button" id="btnSave" value="Save PNG"/>
+        <div id="img-out"></div>
     </body>
 </html>
